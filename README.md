@@ -1,4 +1,4 @@
-L'oggetto `<canvas>` di HTML5 è un elemento che consente di disegnare grafiche bidimensionali dinamiche direttamente in una pagina web. È una "tela" che può essere utilizzata per disegnare grafici, fare animazioni, creare giochi, e molto altro. L'elemento stesso è solo un contenitore e non ha contenuti visivi finché non viene utilizzato JavaScript per disegnare su di esso.
+tL'oggetto `<canvas>` di HTML5 è un elemento che consente di disegnare grafiche bidimensionali dinamiche direttamente in una pagina web. È una "tela" che può essere utilizzata per disegnare grafici, fare animazioni, creare giochi, e molto altro. L'elemento stesso è solo un contenitore e non ha contenuti visivi finché non viene utilizzato JavaScript per disegnare su di esso.
 
 Ecco alcuni punti chiave sul `<canvas>`:
 
@@ -8,7 +8,7 @@ Ecco alcuni punti chiave sul `<canvas>`:
     ```
     Questo crea una tela di 500x500 pixel.
 
-2. **Contesto di Disegno**: Per disegnare su un `<canvas>`, è necessario ottenere un "contesto di disegno". Il contesto di disegno fornisce le API necessarie per disegnare. L'API più comune è quella per disegnare in 2D:
+2. **Contesto di Distegno**: Per disegnare su un `<canvas>`, è necessario ottenere un "contesto di disegno". Il contesto di disegno fornisce le API necessarie per disegnare. L'API più comune è quella per disegnare in 2D:
     ```javascript
     var canvas = document.getElementById('myCanvas');
     var ctx = canvas.getContext('2d');
